@@ -2,7 +2,7 @@
 
 ## The document
 
-The document is available at https://rpubs.com/mattdray/beginner-r-feat-pokemon
+Available at https://github.com/matt-dray/beginner-r-feat-pkmn (work in progress).
 
 ## Background
 
