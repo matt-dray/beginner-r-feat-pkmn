@@ -557,8 +557,10 @@ filter(
 Filter the `pokemon` dataframe to include species rows that:
 
 * are the species "abra", "chansey", or "bellsprout"
-* *and* have greater than 100 `combat_power`
-* *or* less than 100 `hit_points`
+* *and* have between 100 and 400 `combat_power` (hint: you'll need an `&`)
+* *and* less than 100 `hit_points`
+
+How many Pokemon are in this subset?
 
 ***
 
