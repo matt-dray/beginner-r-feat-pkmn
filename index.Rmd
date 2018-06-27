@@ -1,8 +1,8 @@
 ---
 title: "Beginner R and RStudio training"
-subtitle: "For Assistant Economists. Featuring Pokemon."
+subtitle: "Featuring Pokemon!"
 author: "Matt Dray"
-date: "26 Jan 2018, updated 19 Feb 2018"
+date: "26 Jan 2018, last updated 19 Feb 2018"
 output:
   html_document:
     theme: cerulean
