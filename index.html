@@ -2123,7 +2123,8 @@ div.tocify {
 ##  9 nidoran_male          112         30        3360     1. kanto
 ## 10 poliwag               156         35        5460     1. kanto
 ## # ... with 686 more rows</code></pre>
-<p>So we have a column <code>caught</code> filled for every row with <code>1</code> and and a column filled with <code>kanto</code> for every row. R ‘recycles’ whatever you put there for each row. For example, if you gave the argument a vector of three numbers, e.g. <code>caught = c(1:3)</code>, then the row 1 would get <code>1</code>, row 2 would get <code>2</code>, row 3 would get <code>3</code> and it would cycle back to <code>1</code> for row 4, and so on.</p>
+<p>So we’ve created a new column, <code>caught</code>, that’s filled for every row with <code>1</code> and another new column filled with <code>kanto</code> for every row.</p>
+<p>Note that if you pass a vector to <code>mutate()</code>, the vector won’t be ‘recycled’ for each row of your datsaet. In other words putting <code>mutate(new_column = c(1, 2))</code> won’t result in a ‘1’ in row 1, a ‘2’ in row 3 a ‘1’ in row 3 and so on. To do this, you can use <code>transform(new_column = c(1, 2))</code>.</p>
 <p>You can mutate a little more easily with an <code>if_else()</code> statement:</p>
 <div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb55-1" data-line-number="1"><span class="kw">mutate</span>(</a>
 <a class="sourceLine" id="cb55-2" data-line-number="2">  pokemon_hp,</a>
