@@ -590,7 +590,7 @@ mutate(
 
 So we've created a new column, `caught`, that's filled for every row with `1` and another new column filled with `kanto` for every row. 
 
-Note that if you pass a vector to `mutate()`, the vector won't be 'recycled' for each row of your datsaet. In other words putting `mutate(new_column = c(1, 2))` won't result in a '1' in row 1, a '2' in row 3 a '1' in row 3 and so on. To do this, you can use `transform(new_column = c(1, 2))`.
+Note that if you pass a vector to `mutate()`, the vector won't be 'recycled' for each row of your datsaet. In other words putting `mutate(new_column = c(1, 2))` won't result in a '1' in row 1, a '2' in row 2 a '1' in row 3 and so on. To do this, you can use `transform(new_column = c(1, 2))`.
 
 You can mutate a little more easily with an `if_else()` statement:
 
