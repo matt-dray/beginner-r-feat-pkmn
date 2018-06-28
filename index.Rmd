@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(ggplot2)
 ```
 
-<mark>This document is a work in progress -- give me feedback</mark>
+<mark>Please leave a [new GitHub issue](https://github.com/matt-dray/beginner-r-feat-pkmn/issues) if you have questions, problems or suggestions</mark>
 
 <img src="img/rstudio-logo.png" style="width:100px;"/><img src="img/caterpie.png" style="width:100px;"/><img src="img/thumbs-up.png" style="width:100px;"/>
 
